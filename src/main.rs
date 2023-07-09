@@ -1,5 +1,5 @@
 use zeus_engine::run;
 
 fn main() {
-    run();
+    pollster::block_on(run());
 }
